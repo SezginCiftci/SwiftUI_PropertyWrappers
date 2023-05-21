@@ -27,14 +27,14 @@
 
 ##### Implementation
 
-struct ContentView: View {
-    //MARK: Property
-    @State private var username: String = ""
+     struct ContentView: View {
+       //MARK: Property
+       @State private var username: String = ""
     
-    //MARK: Body
-    var body: some View {
-        SCTextField(textFieldType: .username, text: $username)
+       //MARK: Body
+       var body: some View {
+          SCTextField(textFieldType: .username, text: $username)
+       }
     }
-}
 
 ## <a href="https://medium.com/@sezgin0776/swiftuida-enviroment-wrapper-ne-i̇şe-yarar-dba714b02a0">Environment Wrapper Medium Article</a>
