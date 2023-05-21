@@ -27,12 +27,12 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .foregroundColor(Color.secondary)
             
+            //Username
             SCTextField(textFieldType: .username, text: $username)
             SCInfoText(infoTextType: username.isValid ? .validUsername : .invalidUsername)
-            
+            //Password
             SCTextField(textFieldType: .password, text: $password)
             SCInfoText(infoTextType: password.isValid ? .validPassword : .invalidPassword)
-            
         } //VStack
     }
 }
