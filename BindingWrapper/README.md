@@ -37,5 +37,5 @@
        }
     }
 
-## <a href="https://medium.com/@sezgin0776/swiftuida-enviroment-wrapper-ne-i̇şe-yarar-dba714b02a0">Environment Wrapper Medium Article</a>
+## <a href="https://medium.com/@sezgin0776/swiftuida-binding-property-wrapper-nasıl-kullanılır-64b0aa5b0acb">Binding Wrapper Medium Article</a>
  
